@@ -56,3 +56,19 @@ use App\Http\Controllers\PasienController;
 Route::post('/pasien/sukses', 
     [PasienController::class, 'sukses'])->name('pasien/sukses');
 
+    use App\Http\Controllers\TokoController;
+
+Route:: prefix('toko')-> group (function(){
+
+Route::get('/', 
+    [TokoController::class, 'index']);
+
+Route::get('/detail', 
+    [TokoController::class, 'detail']);
+
+Route::get('/about', 
+    [TokoController::class, 'about']);
+});
+
+
+
