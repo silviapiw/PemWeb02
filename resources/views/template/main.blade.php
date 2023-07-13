@@ -63,7 +63,7 @@
 								<li><a href="/toko">Home</a></li>
 								<li><a href="/toko/men">Men</a></li>
 								<li><a href="/toko/women">Women</a></li>
-								<li class="cart"><a href="cart.html"><i class="icon-shopping-cart"></i> Cart [0]</a></li>
+								<li class="cart"><a href="cart.html">Login</a></li>
 							</ul>
 						</div>
 					</div>
